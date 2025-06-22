@@ -1,0 +1,21 @@
+*LeaderF-vista*
+
+INTRODUCTION~
+
+This plugin is an extension of LeaderF, it is used to navigate the vista (a viewer for lsp symbols and tags).
+
+==============================================================================
+REQUIREMENTS~
+
+- vim8 or higher that supports vista will be ok.
+- vim compiled with Python support, you can check by using `echo has('python')`
+  or `echo has('python3')` to see if the result is 1.
+
+==============================================================================
+USAGE~
+
+:LeaderfVista                                   *LeaderfVista*
+    Launch LeaderF to navigate the symbols from vista.
+
+==============================================================================
+vim:tw=78:ts=4:ft=help:norl
